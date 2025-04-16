@@ -38,8 +38,8 @@ lang5.addEventListener("click", () => {
 
 // Download the Resume
 function downloadFile() {
-    const fileUrl = 'assets/AKV_RESUME_FINAL.pdf';
-    const fileName = 'AKV_RESUME_FINAL.pdf';
+    const fileUrl = 'asset/AKV_RESUME_FINAL.pdf';
+    const fileName = 'AKV_RESUME_FINAL.pdf';    
 
     const link = document.createElement('a');
     link.href = fileUrl;
