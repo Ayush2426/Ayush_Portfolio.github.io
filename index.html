@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="NBar">
+        <nav class="Nav">
+            <div class="sNav1">Ayush Verma</div>
+            <div class="sNav2"><ul><li><a href="#sections1" >Main-Frame</a></li><li><a href="#sections2" >Skills</a></li><li><a href="#sections3">Projects</a></li><li><a href="#sections4" >About</a></li></ul></div>
+            <div class="sNav3"><span class="sNav3_1"><a href="#Interact">Interact</a></span></div>
+        </nav>
+        <div name="lang" class="langChanger"><ion-icon class="activeLanguage" name="language-outline"></ion-icon></div>
+        <div name="theme" class="themeChanger"><ion-icon class="activeTheme" name="sunny-outline"></ion-icon></div>
+    </div>
+    <label for="langChanger">Change Language</label>
+    <label for="themeChanger">Change Theme</label>
+
+    <div class="langSelect">
+        <div id="allLang" class="lang1">हिंदी</div>
+        <div id="allLang" class="lang2">English</div>
+        <div id="allLang" class="lang3">मराठी</div>
+        <div id="allLang" class="lang4">বাংলা</div>
+        <div id="allLang" class="lang5">తెలుగు</div>
+    </div>
+    <div class="themeSelect">
+        <div id="allTheme" class="theme1"><ion-icon name="sunny-outline"></ion-icon>&nbsp;Light</div>
+        <div id="allTheme" class="theme2"><ion-icon name="moon-outline"></ion-icon>&nbsp;Dark</div>
+        <div id="allTheme" class="theme3"><ion-icon name="contrast-outline"></ion-icon>&nbsp;Auto</div>
+    </div>
+    
+    <div class="backToTop"><a href="#sections1"></a><ion-icon name="arrow-up-outline"></ion-icon></div>
+
+
+    <div class="SectionS" id="sections1"></div>
+    <div class="SectionS" id="sections2"></div>
+    <div class="SectionS" id="sections3"></div>
+    <div class="SectionS" id="sections4"></div>
+
+    <div class="section2" id="MainFrame">
+        <div class="myInfo1"><img class="profilePhoto" src="./assets/myProfile.jpg" alt="true"></div>
+        <div class="myInfo2">
+            <div class="availability"><ion-icon name="radio-button-on"></ion-icon>Available for hiring!</div>
+            <div class="PostInfo">Full Stack Website & Application Developer</div>
+            <div class="postDesc">Hi, Im Ayush Verma, 19 Y.o. and I've a degree in BCA from ARYABHATT KNOWLDEGE UNIVERSITY(Patna) along with that Im a Freelancer too. Currently I holds the skillset of Full Stack Web Development along with
+                that I have a hold in DSA too and im planning to be working on AI integration as well.
+                Find much about me in further section ahead!
+                <span class="pingMe">Feel free to ping me if you find myself suitable for you!</span></div>
+            <div class="ReachMe">
+                <div onclick="sendMail()" class="email">Mail here</div>
+                <div onclick="downloadFile()" class="resume">Resume  </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="Skillset" id="SkillSet" >Skill-Set</span>
+    <div class="skillContainer">
+        <div class="skill1" id="allSkills"></div>
+        <div class="skill2" id="allSkills"></div>
+        <div class="skill3" id="allSkills"></div>
+        <div class="skill4" id="allSkills"></div>
+        <div class="skill5" id="allSkills"></div>
+        <div class="skill6" id="allSkills"></div>
+        <div class="skill7" id="allSkills"></div>
+        <div class="skill8" id="allSkills"></div>
+        <div class="skill9" id="allSkills"></div>
+        <div class="skill10" id="allSkills"></div>
+        <div class="skill11" id="allSkills"></div>
+        <div class="skill12" id="allSkills"></div>
+    </div>
+    <span class="interactiveSet">Interactive Skills</span>
+    <div class="interactSkill">
+        <div id="is" class="Is1">Communication</div>
+        <div id="is" class="Is2">Creativity</div>
+        <div id="is" class="Is3">Multi-Tasking</div>
+        <div id="is" class="Is4">Problem Solving</div>
+    </div>
+
+    <span class="projectHead" id="Projects" >Projects</span>
+    <div class="projectContainer">
+        <div class="project1" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project2" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project3" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project4" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project5" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project6" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project7" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+        <div class="project8" id="allProjects"><div class="ProjectHover1"></div><div class="go"><ion-icon name="chevron-forward-outline"></ion-icon></div></div>
+    </div>
+
+    <div class="myServices" id="About" >
+        <span class="mySer">My Services</span>
+        <span class="ServiceSlogan">Elevate Your Online Presence With Me</span>
+        <span class="serviceDesc">Crafric User-Centric Websites and Applications for Seamless Digital Experience</span>
+        <div class="majorContainer">
+            <div class="major1" id="major"><div id="logos" class="logo1"><img src="./assets/ux.png" alt="" class="logos"></div>
+                <span class="serviceInfo1">Website Design & Development</span><span class="serviceDesc1">Custome website design and development tailored to <br> your brand and business needs.</span>
+            </div>
+            <div class="major2" id="major"><div id="logos" class="logo2"><img src="./assets/data-analysis.png" alt="" class="logos"></div>
+                <span class="serviceInfo2">User Research & Analysis</span><span class="serviceDesc2">Conduct user research to understand your target audience, their needs and behaviors.</span>
+            </div>
+            <div class="major3" id="major"><div id="logos" class="logo3"><img src="./assets/user-interface.png" alt="" class="logos"></div>
+                <span class="serviceInfo3">App Design & Develoment</span><span class="serviceDesc3">Custome website design and development tailored to <br> your brand and business needs.</span>
+            </div>
+            <div class="major4" id="major"><div id="logos" class="logo4"><img src="./assets/backend.png" alt="" class="logos"></div>
+                <span class="serviceInfo4">Full Stack Development</span><span class="serviceDesc4">Designing, developing, and maintaining both client-side and server-side components of web applications.</span>
+            </div>
+        </div>
+    </div>
+
+    <footer id="Interact" >
+        <div class="footerUpcontainer">
+            <div class="footerSection1">
+                <span class="fs1Head">Get in Touch</span>
+                <span class="fs1Desc">Have any queries or need my assistance? Reach me here!</span>
+                <form id="contactForm">
+                    <div class="formPart1">
+                        <input required type="text" id="name" placeholder="Your full name here..." class="Fname">
+                        <input required type="email" id="email" placeholder="Your email here..." class="Qemail">
+                    </div>
+                    <div class="formPart2">
+                        <input required type="text" id="phone" placeholder="Your Contact here..." class="Qphn">
+                        <input required type="text" id="subject" placeholder="Subject" class="Qsubject">
+                    </div>
+                    <div class="formPart3">
+                        <textarea required id="message" placeholder="Your message here..." class="Qmessage"></textarea>
+                    </div>
+                    <button type="submit" class="sendMessage">Send Message</button>
+                </form>
+                <span id="gratitude">Grateful for your visit! Your support and feedback <br> inspire me to keep creating.</span>
+            </div>
+            <div class="footerSection2">
+                <div class="infoCircle">
+                    <div class="iCircle1"><ion-icon class="detailIcons" name="call-outline"></ion-icon> </div>
+                    <div class="iCircle2"></div>
+                    <div onclick="sendMail()" class="iCircle3"><ion-icon class="detailIcons" name="mail-outline"></ion-icon></div>
+                    <div class="iCircle4"></div>
+                    <div class="iCircle5"><ion-icon class="detailIcons" name="location-outline"></ion-icon></div>
+                    <div class="infoDetails">
+                        <span class="details1">+91-9142315603&nbsp;</span><span class="details2">ayushhhVerma07@gmail.com</span><span class="details3">Jamshedupur, Jharkhand</span>
+                    </div>
+                </div>
+                <span class="subscribeHead">Subscribe</span>
+                <input id="subscribe" placeholder="Your mail here..." type="email"><button class="subscribe">Submit</button>
+                <span class="subDesc">Get updated for newsletter and upcoming projects directly in your mail box.</span>
+                <span class="gratitude">Thank you for stopping by! This portfolio is a glimpse into my work and the journey that drives me forward. I appreciate your time and interest—it’s the encouragement I need to keep growing. Don’t hesitate to reach out or share your thoughts!</span>
+            </div>
+        </div>
+        <div class="footerSection3">
+            <span class="CR">© 2025 Your Name. All rights reserved.</span>
+            <div class="socialHandles">
+                <div id="sh" class="sH1"><ion-icon name="logo-github"></ion-icon></div>
+                <div id="sh" class="sH2"><ion-icon name="logo-linkedin"></ion-icon></div>
+                <div id="sh" class="sH3"><ion-icon name="logo-twitter"></ion-icon></div>
+                <div id="sh" class="sH4"><ion-icon name="logo-instagram"></ion-icon></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+         document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();  // Prevent the default form submission
+
+            // Get the form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                subject: document.getElementById('subject').value,
+                text: document.getElementById('message').value
+            };
+
+            fetch('http://localhost:3000/send-email', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.text())
+        .then(data => {
+            alert('Email Sent: ' + data);
+        })
+        .catch(error => {
+            alert('Error: ' + error);
+        });
+
+        });
+    </script>
+</body>
+</html>
+
+
